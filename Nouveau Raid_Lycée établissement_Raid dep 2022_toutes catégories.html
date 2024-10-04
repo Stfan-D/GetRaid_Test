@@ -1,0 +1,25 @@
+<html><br>
+<script language='JavaScript'>
+function lancerScroll()
+{
+  if ((document.body.scrollTop + document.body.clientHeight) >= document.body.scrollHeight - 3) 
+  {
+    document.body.scrollTop = 0;
+    window.location.reload();
+  }
+  var top = document.body.scrollTop;
+  scrollAuto(top);
+}
+
+function scrollAuto(arg)
+{
+  window.scrollBy(0,20);
+  if (document.body.scrollTop < (arg + document.body.clientHeight - document.body.clientHeight/5)) 
+  {
+    setTimeout(scrollAuto,100, arg);
+  }
+}
+</script>
+<body><h1>Résultat provisoire Nouveau Raid</h1><h2>Parcours : Lycée établissement</h2><h2>Etape : Raid dep 2022</h2><table><tr style='font-weight: bold;'><td>Clt</td><td>Dossard</td><td>Nom équipe</td><td>Catégorie</td><td>Tps final</td><td>Pts finaux</td></tr><tr style='background-color: #FFFFE0;'align=center><td>1</td><td>234</td><td>Guillaume Le conquérant 2</td><td>Mixte</td><td>1:13:35</td><td></td></tr><tr style='background-color: #E0FFFF;'align=center><td>2</td><td>234</td><td>Guillaume Le conquérant 2</td><td>Mixte</td><td>1:13:49</td><td></td></tr><tr style='background-color: #FFFFE0;'align=center><td>3</td><td>233</td><td>Guillaume Le conquérant 1</td><td>Mixte</td><td>1:35:08</td><td></td></tr><tr style='background-color: #E0FFFF;'align=center><td>4</td><td>233</td><td>Guillaume Le conquérant 1</td><td>Mixte</td><td>1:35:09</td><td></td></tr><tr style='background-color: #FFFFE0;'align=center><td>5</td><td>238</td><td>Malherbe 1</td><td>Mixte</td><td>1:41:21</td><td></td></tr><tr style='background-color: #E0FFFF;'align=center><td>6</td><td>238</td><td>Malherbe 1</td><td>Mixte</td><td>1:41:27</td><td></td></tr><tr style='background-color: #FFFFE0;'align=center><td>7</td><td>237</td><td>Dumont d'Urville 1</td><td>Mixte</td><td>1:42:01</td><td></td></tr><tr style='background-color: #E0FFFF;'align=center><td>8</td><td>237</td><td>Dumont d'Urville 1</td><td>Mixte</td><td>1:42:05</td><td></td></tr><tr style='background-color: #FFFFE0;'align=center><td>9</td><td>235</td><td>Guillaume Le conquérant 3</td><td>Mixte</td><td>1:44:31</td><td></td></tr><tr style='background-color: #E0FFFF;'align=center><td>10</td><td>235</td><td>Guillaume Le conquérant 3</td><td>Mixte</td><td>1:44:31</td><td></td></tr><tr style='background-color: #FFFFE0;'align=center><td>11</td><td>239</td><td>Victor Hugo 1</td><td>Mixte</td><td>1:45:40</td><td></td></tr><tr style='background-color: #E0FFFF;'align=center><td>12</td><td>239</td><td>Victor Hugo 1</td><td>Mixte</td><td>1:45:47</td><td></td></tr><tr style='background-color: #FFFFE0;'align=center><td>13</td><td>232</td><td>Charles Tellier 1</td><td>Mixte</td><td>1:48:21</td><td></td></tr><tr style='background-color: #E0FFFF;'align=center><td>14</td><td>232</td><td>Charles Tellier 1</td><td>Mixte</td><td>1:48:21</td><td></td></tr><tr style='background-color: #FFFFE0;'align=center><td>15</td><td>240</td><td>Paul Cornu 1</td><td>Mixte</td><td>1:51:39</td><td></td></tr><tr style='background-color: #E0FFFF;'align=center><td>16</td><td>240</td><td>Paul Cornu 1</td><td>Mixte</td><td>1:51:45</td><td></td></tr><tr style='background-color: #FFFFE0;'align=center><td>17</td><td>236</td><td>Guillaume Le conquérant 4</td><td>Mixte</td><td>1:59:19</td><td></td></tr><tr style='background-color: #E0FFFF;'align=center><td>18</td><td>236</td><td>Guillaume Le conquérant 4</td><td>Mixte</td><td>1:59:20</td><td></td></tr></table><br><br><br><br><br><br><br>
+<script type='text/javascript'>var myVar = setInterval(lancerScroll,10000)</script>
+<br><br><br></body></html>
